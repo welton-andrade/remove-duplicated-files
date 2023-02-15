@@ -3,25 +3,25 @@ on:
         branches:
             - main
 jobs:
-    build-and-deploy:
-        runs-on: ubuntu-lastest
+  build-and-deploy:
+    runs-on: ubuntu-lastest
 
-        steps:
-        - uses: action/checkout@main
+    steps:
+    - uses: action/checkout@main
 
-        - name: Setup .NET Core
-          uses: actions/setup-dotnet@v2
-          with: 
-            dotnet-version: '6.0.x'
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v2
+      with: 
+        dotnet-version: '6.0.x'
 
-        - name: Build with dotnet
-        run: dotnet build --configuration Release
+    - name: Build with dotnet
+    run: dotnet build --configuration Release
 
-        - name: Test
-        run: dotnet test
+    - name: Test
+    run: dotnet test
 
-        - name: Create the Package
-        run: dotnet pack --configuration Release
+    - name: Create the Package
+    run: dotnet pack --configuration Release
 
-        - name: Publish
-        run: dotnet nuget push "DuplicatedFiles/bin/Release/*.nupkg" -k ${{ secrets.NUGET_TOKEN }} -s https://api.nuget.org/v3/index.json
+    - name: Publish
+    run: dotnet nuget push "DuplicatedFiles/bin/Release/*.nupkg" -k ${{ secrets.NUGET_TOKEN }} -s https://api.nuget.org/v3/index.json
