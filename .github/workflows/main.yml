@@ -2,7 +2,7 @@ name: Test CI
 on: push
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@main
     - name: Setup .NET Core
