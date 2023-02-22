@@ -9,18 +9,18 @@
     <Title>DuplicatedFiles</Title>
     <Sumary>DuplicatedFiles</Sumary>
     <PackageId>DuplicatedFiles</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <icon></icon>
     <License>MIT</License>
     <Authors>Welton</Authors>
     <Company></Company>
     <PackageDescription></PackageDescription>
     <Description></Description>
-    <RepositoryUrl></RepositoryUrl>
-    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/welton-andrade/remove-duplicated-files</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/welton-andrade/remove-duplicated-files</PackageProjectUrl>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageIcon></PackageIcon>
-    <PackageTags></PackageTags>
+    <PackageTags>#remove #duplicated #files</PackageTags>
     <ReleaseNotes></ReleaseNotes>
   </PropertyGroup>
 
