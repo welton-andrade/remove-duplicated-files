@@ -5,6 +5,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <Title>DuplicatedFiles</Title>
+    <Sumary>DuplicatedFiles</Sumary>
+    <PackageId>DuplicatedFiles</PackageId>
+    <Version>1.0.1</Version>
+    <icon></icon>
+    <License>MIT</License>
+    <Authors>Welton</Authors>
+    <Company></Company>
+    <PackageDescription></PackageDescription>
+    <Description></Description>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageIcon></PackageIcon>
+    <PackageTags></PackageTags>
+    <ReleaseNotes></ReleaseNotes>
   </PropertyGroup>
 
 </Project>
